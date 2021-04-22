@@ -17,13 +17,22 @@ img {
     justify-content: center;
     align-items: center;
     object-fit: cover;
+    
 }
+
+img:hover {
+    transform: scale(1.5);
+  }
 
 @media screen and (max-width: 900px) {
     .gd-gallery {
         grid-template-columns: minmax(300px, 1fr);
         margin: 0px;
     }
+
+    img:hover {
+        transform: scale(0);
+      }
 }
 
 

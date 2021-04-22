@@ -70,6 +70,12 @@ body {
     margin-top: 60px;
 }
 
+@media screen and (max-width: 856px) {
+  .cont-profile-pic {
+    margin-top: 24px;
+  }
+}
+
 /* navbar */
 nav {
 	position: relative;
@@ -290,6 +296,10 @@ margin: 5px;
   font-size: 25px;
 }
 
+.code-logos h3 {
+  margin-top: -25px;
+}
+
 .design-logos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -311,6 +321,26 @@ margin: 5px;
   justify-items: center;
   text-align: center;
   font-size: 30px;
+}
+
+.email {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 45px;
+}
+
+@media screen and (max-width: 900px) {
+  .about-text {
+    font-size: 22px;
+  }
+  .email {
+    font-size: 32px;
+  }
 }
 
 .resume {
