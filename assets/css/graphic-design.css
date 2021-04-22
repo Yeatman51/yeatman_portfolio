@@ -13,7 +13,7 @@ img {
     grid-gap: 15px;
     overflow: hidden;
     width: 100%;
-    margin: 25px;
+    padding: 25px;
     justify-content: center;
     align-items: center;
     object-fit: cover;

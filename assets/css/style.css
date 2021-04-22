@@ -295,6 +295,13 @@ margin: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 900px) {
+
+  .design-logos {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
 .about-text {
   margin-top: 20px;
   display: flex;
