@@ -279,7 +279,7 @@ margin: 5px;
   }
 
   .dev-info:hover {
-    display: none;
+      transform: scale(1);
   }
 
 }
