@@ -294,6 +294,7 @@ margin: 5px;
   align-items: center;
   text-align: center;
   font-size: 25px;
+  width: 220px;
 }
 
 .code-logos h3 {
@@ -306,14 +307,36 @@ margin: 5px;
 }
 
 @media screen and (max-width: 900px) {
-
+  .code-logos {
+    width: 100%;
+  }
+  .code-logos-container {
+    grid-template-columns: 1fr 1fr; 
+  }
   .design-logos {
     grid-template-columns: 1fr 1fr;
+  }
 }
+
+.line {
+  border-top: 5px solid white;
+  margin-top: 10px;
 }
 
 .about-text {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.about-text-home {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,11 +357,28 @@ margin: 5px;
   font-size: 45px;
 }
 
+.icon-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 45px;
+}
+
 @media screen and (max-width: 900px) {
   .about-text {
     font-size: 22px;
   }
+  .about-text-home {
+    font-size: 22px;
+  }
   .email {
+    font-size: 32px;
+  }
+  .icon-header {
     font-size: 32px;
   }
 }
