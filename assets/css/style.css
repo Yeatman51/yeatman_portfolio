@@ -20,7 +20,7 @@
       }
 
 body {
-  font-family: digital-7;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -52,6 +52,7 @@ body {
 }
 
 .header-text {
+    font-family: digital-7;
     text-align: center;
     font-size: 43px;
     margin-bottom: 10px;
@@ -75,6 +76,7 @@ nav {
 }
 
 nav .links {
+  font-family: digital-7;
 	float: right;
 	padding: 0;
 	margin: 0;
@@ -132,6 +134,48 @@ nav .icon-burger .line {
     box-shadow: 5px 5px 10px rgb(37, 37, 37);
 }
 
+/* home pg */
+.about-text-home {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.code-logos-container {
+  font-family: digital-7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.code-logos {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  width: 220px;
+}
+
+.code-logos h3 {
+  margin-top: -25px;
+}
+
+.design-logos {
+  font-family: digital-7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.line {
+  border-top: 5px solid white;
+  margin-top: 10px;
+}
+
 /* portfolio */
 .portfolio-container {
   display: flex;
@@ -149,6 +193,7 @@ nav .icon-burger .line {
 }
 
 .dev-info {
+  font-family: digital-7;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,33 +257,7 @@ margin: 5px;
   margin-bottom: 10px;
 }
 
-.code-logos-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.code-logos {
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  font-size: 25px;
-  width: 220px;
-}
-
-.code-logos h3 {
-  margin-top: -25px;
-}
-
-.design-logos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.line {
-  border-top: 5px solid white;
-  margin-top: 10px;
-}
-
+/* about pg */
 .about-text {
   margin-top: 20px;
   display: flex;
@@ -250,19 +269,8 @@ margin: 5px;
   font-size: 30px;
 }
 
-.about-text-home {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  text-align: center;
-  font-size: 30px;
-}
-
 .email {
+  font-family: digital-7;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -285,6 +293,7 @@ margin: 5px;
 }
 
 .resume {
+  font-family: digital-7;
   display: flex;
   color: white;
   margin-top: 10px;
@@ -297,6 +306,7 @@ margin: 5px;
 
 /* Footer */
 footer {
+    font-family: digital-7;
     border-top: 5px solid white;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     padding: 20px;
