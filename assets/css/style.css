@@ -190,8 +190,17 @@ nav .icon-burger .line {
 }
 
 /* portfolio */
-.port-container {
+.portfolio-container {
   display: flex;
+  flex-direction:row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.portfolio-container-row {
+  display: flex;
+  flex-direction:row;
+  position: relative;
   margin-top: 50px;
   margin-bottom: 50px;
 }
