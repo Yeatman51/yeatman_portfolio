@@ -151,6 +151,8 @@ nav .icon-burger .line {
   font-family: digital-7;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+
 }
 
 .code-logos {
@@ -169,6 +171,8 @@ nav .icon-burger .line {
   font-family: digital-7;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+
 }
 
 .line {
