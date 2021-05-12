@@ -50,12 +50,6 @@ body {
     background-position: center;
     background-size: cover;
 }
-@media screen and (max-width: 856px) {
-  .yeatman-logo {
-    padding: 45px;
-  }
-  
-}
 
 .header-text {
     text-align: center;
@@ -68,12 +62,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 60px;
-}
-
-@media screen and (max-width: 856px) {
-  .cont-profile-pic {
-    margin-top: 24px;
-  }
 }
 
 /* navbar */
@@ -136,51 +124,6 @@ nav .icon-burger .line {
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
-}
-@media screen and (max-width: 856px) {
-  nav {
-    background: none !important;
-  }
-  nav .links {
-		float: none;
-		position: fixed;
-		z-index: 1;
-		left: 0;
-		right: 0;
-		top: 175px;
-		bottom: 100%;
-		width: auto;
-		height: auto;
-		flex-direction: column;
-		justify-content: space-evenly;
-		background-color: rgba(0,0,0,.8);
-		overflow: hidden;
-		box-sizing: border-box;
-		transition: all .5s ease-in-out;
-	}
-	nav .links a {
-		font-size: 25px;
-	}
-	nav :checked ~ .links {
-		bottom: 0;
-	}
-	nav .icon-burger {
-    display: block;
-    z-index: 2;
-  }
-  nav .icon-burger .line {
-    background-color: var(--org);
-  }
-	nav :checked ~ .icon-burger .line:nth-child(1) {
-		transform: translateY(10px) rotate(225deg);
-	}
-	nav :checked ~ .icon-burger .line:nth-child(3) {
-		transform: translateY(-10px) rotate(-225deg);
-	}
-	nav :checked ~ .icon-burger .line:nth-child(2) {
-		opacity: 0;
-	}
-	
 }
 
 .profile-pic {
@@ -268,30 +211,6 @@ margin: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* Portfolio responsive layout */
-@media screen and (max-width: 860px) {
-
-  .port-container {
-    display: inline-block;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 200px;
-  }
-
-  .dev-info {
-    /* flex-direction: column; */
-    overflow: hidden;
-    width: 85%;
-    height: 85%;
-    
-  }
-
-  .dev-info:hover {
-      transform: scale(1);
-  }
-
-}
 
 .code-logos-container {
   display: grid;
@@ -313,18 +232,6 @@ margin: 5px;
 .design-logos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-@media screen and (max-width: 900px) {
-  .code-logos {
-    width: 100%;
-  }
-  .code-logos-container {
-    grid-template-columns: 1fr 1fr; 
-  }
-  .design-logos {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 .line {
@@ -375,21 +282,6 @@ margin: 5px;
   justify-items: center;
   text-align: center;
   font-size: 45px;
-}
-
-@media screen and (max-width: 900px) {
-  .about-text {
-    font-size: 22px;
-  }
-  .about-text-home {
-    font-size: 22px;
-  }
-  .email {
-    font-size: 32px;
-  }
-  .icon-header {
-    font-size: 32px;
-  }
 }
 
 .resume {
@@ -487,11 +379,4 @@ footer {
 .icon-anchor {
   color: white;
   text-decoration: none;
-}
-
-@media screen and (max-width: 900px) {
-
-  .header-text {
-    font-size: 31px;
-  }
 }
