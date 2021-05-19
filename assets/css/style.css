@@ -42,7 +42,7 @@ body {
     background-image: url("../img/yeatman-logo.svg");
     border: none;
     width: 100%;
-    padding: 80px;
+    padding: 80px 0px 100px 0px;
     margin-top: 3px;
     margin-bottom: 12px;
     /* background-image: inherit; */
@@ -65,9 +65,20 @@ body {
     margin-top: 60px;
 }
 
+.profile-pic {
+  width: 215px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
 /* navbar */
 nav {
-	position: relative;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 	z-index: 1;
 	padding: 10px;
   height: 55px;
@@ -126,12 +137,6 @@ nav .icon-burger .line {
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
-}
-
-.profile-pic {
-    width: 155px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px rgb(37, 37, 37);
 }
 
 /* home pg */

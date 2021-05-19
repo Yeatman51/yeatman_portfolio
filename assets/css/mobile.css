@@ -9,7 +9,11 @@
     }
 
     .cont-profile-pic {
-    margin-top: 24px;
+    margin-top: 2px;
+    }
+
+    .profile-pic {
+        width: 140px;
     }
 
 /* navbar */
