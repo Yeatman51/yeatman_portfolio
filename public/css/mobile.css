@@ -1,20 +1,20 @@
 @media screen and (max-width: 900px) {
 /* top */
-    .header-text {
-        font-size: 31px;
-    }
+  .header-text {
+    font-size: 31px;
+  }
 
-    .yeatman-logo {
-        padding: 45px;
-    }
+  .yeatman-logo {
+    padding: 45px;
+  }
 
-    .cont-profile-pic {
+  .cont-profile-pic {
     margin-top: 2px;
-    }
+  }
 
-    .profile-pic {
-        width: 140px;
-    }
+  .profile-pic {
+    width: 140px;
+  }
 
 /* navbar */
   nav {
@@ -98,6 +98,27 @@
 
   .dev-info:hover {
       transform: scale(1);
+  }
+
+/* Designer pg */
+  .designer-text-header {
+    font-size: 70px;
+    margin: 40px 0px 15px 0;
+  }
+
+  .designer-text-paragraph {
+    font-size: 20px;
+  }
+
+/* Photographer pg */
+  .photographer-text-header {
+    font-size: 50px;
+    margin: 40px 0px 15px 0;
+  }
+  
+  .photographer-text-paragraph {
+    color: white;
+    font-size: 20px;
   }
 
 /* about pg */
