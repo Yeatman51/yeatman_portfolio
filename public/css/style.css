@@ -194,7 +194,7 @@ nav .icon-burger .line {
   margin-bottom: 27px;
 }
 
-/* portfolio */
+/* Developer */
 .portfolio-container {
   display: flex;
   flex-direction:row;
@@ -275,14 +275,52 @@ margin: 5px;
   margin-bottom: 10px;
 }
 
+/* Designer pg */
+/* CSS grid located in designer CSS file */
+.Designer-text-container{
+  color: white;
+}
+
+.designer-text-header {
+  color: white;
+  font-family: digital-7;
+  font-size: 70px;
+  text-align: center;
+  margin: 40px 0px 15px 0;
+}
+
+.designer-text-paragraph {
+  color: white;
+  font-size: 20px;
+}
+
+/* Photographer pg */
+/* CSS grid located in Photographer CSS file */
+.photographer-text-container{
+  color: white;
+}
+
+.photographer-text-header {
+  color: white;
+  font-family: digital-7;
+  font-size: 70px;
+  text-align: center;
+  margin: 40px 0px 15px 0;
+}
+
+.photographer-text-paragraph {
+  color: white;
+  font-size: 20px;
+}
+
 /* about pg */
 .about-text {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
   align-content: center;
-  justify-items: center;
   text-align: center;
   font-size: 30px;
 }
