@@ -152,12 +152,26 @@ nav .icon-burger .line {
   font-size: 30px;
 }
 
+.line {
+  border-top: 5px solid white;
+  margin-top: 10px;
+}
+
+.icon-header {
+  margin: 28px 5px 8px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 45px;
+}
+
 .code-logos-container {
   font-family: digital-7;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-
+  margin-bottom: 27px;
 }
 
 .code-logos {
@@ -177,12 +191,7 @@ nav .icon-burger .line {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-
-}
-
-.line {
-  border-top: 5px solid white;
-  margin-top: 10px;
+  margin-bottom: 27px;
 }
 
 /* portfolio */
@@ -280,17 +289,6 @@ margin: 5px;
 
 .email {
   font-family: digital-7;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  text-align: center;
-  font-size: 45px;
-}
-
-.icon-header {
   margin-top: 20px;
   display: flex;
   justify-content: center;
