@@ -71,7 +71,19 @@
     grid-template-columns: 1fr 1fr;
   }
     
-/* portfolio */
+/* Developer */
+  .developer-text-container{
+    color: white;
+  }
+
+  .developer-text-header {
+    font-size: 60px;
+    margin: 40px 0px 15px 0;
+  }
+
+  .developer-text-paragraph {
+    font-size: 20px;
+  }
   .portfolio-container {
     display: inline-block;
     align-content: center;

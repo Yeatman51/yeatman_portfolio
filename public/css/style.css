@@ -195,6 +195,23 @@ nav .icon-burger .line {
 }
 
 /* Developer */
+.developer-text-container{
+  color: white;
+}
+
+.developer-text-header {
+  color: white;
+  font-family: digital-7;
+  font-size: 70px;
+  text-align: center;
+  margin: 40px 0px 15px 0;
+}
+
+.developer-text-paragraph {
+  color: white;
+  font-size: 20px;
+}
+
 .portfolio-container {
   display: flex;
   flex-direction:row;
@@ -277,7 +294,7 @@ margin: 5px;
 
 /* Designer pg */
 /* CSS grid located in designer CSS file */
-.Designer-text-container{
+.designer-text-container{
   color: white;
 }
 
