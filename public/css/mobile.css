@@ -141,7 +141,12 @@
     font-size: 22px;
   }
   .email {
-    font-size: 32px;
+    font-size: 35px;
+  }
+
+  .secret-message {
+    font-size: 20px;
+    margin: 10px 0 5px 0;
   }
   .icon-header {
     font-size: 32px;

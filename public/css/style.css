@@ -370,6 +370,17 @@ margin: 5px;
   background-color: var(--org);
 }
 
+.secret-message {
+  font-family: digital-7;
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin: 10px 0 5px 0;
+}
+
 /* Footer */
 footer {
     font-family: digital-7;
